@@ -1976,6 +1976,8 @@ The architecture looks like below:
 
 The model sees the screen as an image, decides on a UI action (click at coordinates, type text, scroll), the runtime executes that action, and the next screenshot comes back. Loop until done.
 
+A browser agent is the same idea limited to a web browser. A controller like Playwright drives the browser, and besides screenshots, the agent can also read the page structure (the DOM and the accessibility tree) and act on numbered elements instead of raw coordinates. We have a detailed blog on [How do Browser Agents work?](https://outcomeschool.com/blog/how-do-browser-agents-work) that explains it step by step.
+
 Design implications:
 
 - **Vision-capable model required.** The LLM must be multimodal. We pay image-token costs on every step.
