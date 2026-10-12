@@ -2335,6 +2335,8 @@ The best way to learn this is by taking an example.
 
 The second turn feels personal even though it happened a week later. The LLM itself remembers nothing. The agent did all the remembering for it.
 
+This is exactly how ChatGPT feels personal across chats. We have a detailed blog on [How does ChatGPT remember you?](https://outcomeschool.com/blog/how-does-chatgpt-remember-you).
+
 ### What to Store and What Not to Store
 
 One of the biggest mistakes is storing too much.
